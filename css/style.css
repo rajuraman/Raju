@@ -5,6 +5,7 @@ body{
 
 .header{
     background-color: #0371b9;
+    
 }
 .header .nav-link{
     color: #fff !important;
@@ -15,6 +16,7 @@ body{
     color: #fff !important;
     font-weight: bold;
 }
+
 .website{
     background-color: #0371b9;
     border-radius: 11px;
@@ -35,6 +37,7 @@ body{
     border-radius: 6px;
     float: right;
 }
+
 .raju{
     width: 100%;
     padding: 8px 20px;
@@ -408,6 +411,9 @@ display:block;
 }
   .futter {
     height: 629px;
+}
+.bg_futter {
+  height: 667px;
 }
 .modal-content {
   padding: 6px;
