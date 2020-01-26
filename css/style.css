@@ -4,7 +4,7 @@ body{
 }
 
 .header{
-    background-color: #0371b9;
+  background: linear-gradient(125deg, #0371b9 30%, #2e495b 20%);
     
 }
 .header .nav-link{
@@ -18,7 +18,7 @@ body{
 }
 
 .website{
-    background-color: #0371b9;
+  background: linear-gradient(135deg, #0371b9 52%, #2E4985 20%);
     border-radius: 11px;
 }
 .website h2{
@@ -410,6 +410,11 @@ display:block;
 .box1 img{
   max-width: 100%;
 }
+.hov:hover{
+  background-color: #101213;
+    border-radius: 14px;
+    color: #0c9dfb !important;
+}
 
 
 
@@ -417,7 +422,7 @@ display:block;
 
 @media only screen and (max-width: 500px) {
   .header {
-    background-color: #0371b9;
+    background: linear-gradient(125deg, #0371b9 50%, #2e495b 20%);
 }
 .website p{
   line-height: 28px;
@@ -457,6 +462,19 @@ display:block;
 .box {
   margin: 2px;
     width: 13%;
+}
+.box1 {
+  width: 10%;
+    margin: 0px 5px;
+}
+.work{
+  margin-top: 22px;
+}
+.skill {
+  background: linear-gradient(125deg, #0371b9 56%, #2e495b 20%);
+}
+.work2 {
+  background: linear-gradient(125deg, #0371b9 81%, #2e495b 20%);
 }
 
 }
